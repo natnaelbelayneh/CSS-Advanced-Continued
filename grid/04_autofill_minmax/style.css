@@ -1,0 +1,15 @@
+.grid {
+  display: grid;
+  grid-gap: 1rem;
+  /* grid-template-rows: 1fr 3fr 1fr; */
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+}
+
+.item {
+  padding: 3rem;
+  background: #f4f4f4;
+  border: #ccc 1px solid;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.4rem;
+}

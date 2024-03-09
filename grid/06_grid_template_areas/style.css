@@ -1,0 +1,43 @@
+.header,
+.content,
+.sidebar,
+.box-1,
+.box-2,
+.box-3,
+.box-4,
+.footer {
+  border: 1px #ccc solid;
+  padding: 0.5rem;
+}
+.container {
+  display: grid;
+  grid-gap: 1rem;
+
+
+
+  /* grid-template-areas:
+    'header header header'
+    'content content sidebar'
+    'box-1 box-2 box-2'
+    'footer footer footer'; */
+}
+
+
+
+/* Grid area */
+
+
+
+/* Media 500px */
+@media(max-width:500px){
+  .container{
+    /* grid-template-areas:
+      'header'
+      'content'
+      'sidebar'
+      'box-1'
+      'box-2'
+      'box-3'
+      'footer'; */
+  }
+}

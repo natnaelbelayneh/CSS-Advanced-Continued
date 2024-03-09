@@ -1,0 +1,14 @@
+/* html{
+  scroll-behavior: smooth;
+} */
+
+#home{
+  height: 100vh;
+  border: 2px red solid;
+  margin-bottom: 4rem;
+}
+
+#contact{
+  height: 100vh;
+  border: 2px red solid;
+}

@@ -1,0 +1,24 @@
+.grid {
+  /* display: grid; */
+  /* grid-template-columns: 300px 300px 300px 300px; */
+  /* grid-template-columns: auto 300px 300px 300px; */
+  /* grid-template-columns: 1fr 3fr; */
+  /* grid-template-columns: repeat(2, auto); */
+  /* grid-gap: 1rem; */
+}
+
+.item {
+  padding: 3rem;
+  background: #f4f4f4;
+  border: #ccc 1px solid;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+main {
+  /* display: grid; */
+  /* grid-template-columns: 3fr 1fr; */
+  /* gap: 1rem; */
+  /* margin-top: 2rem; */
+}
